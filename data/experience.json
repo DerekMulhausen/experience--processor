@@ -1,0 +1,741 @@
+{
+    "certificates":
+    [
+        {
+            "id": 1,
+            "source":"codecademy",
+            "title":"Learn React",
+            "distinctSkills":["React"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":30,
+            "url":"https://www.codecademy.com/profiles/DerekMulhausen/certificates/af00e5032d0a68cc84879983f5d8333b"
+        },
+        {
+            "id": 2,
+            "source":"codecademy",
+            "title":"Learn Angular JS 1.X",
+            "distinctSkills":["Angular"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":30,
+            "url":"https://www.codecademy.com/profiles/DerekMulhausen/certificates/e2b09fcfe6f5a5edad64f6556de7946e"
+        },
+        {
+            "id": 3,
+            "source":"codecademy",
+            "title":"Learn SQL",
+            "distinctSkills":["SQL"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":30,
+            "url":"https://www.codecademy.com/profiles/DerekMulhausen/certificates/042a4e5884e3eb6ea1f2a12be6abb851"
+        },
+        {
+            "id": 4,
+            "source":"codecademy",
+            "title":"Learn Java",
+            "distinctSkills":["Java"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":30,
+            "url":"https://www.codecademy.com/profiles/DerekMulhausen/certificates/d3f89367b558583e361640f778191345"
+        },
+        {
+            "id": 5,
+            "source":"sololearn",
+            "title":"SQL",
+            "distinctSkills":["SQL"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":30,
+            "url":"https://api2.sololearn.com/v2/certificates/CT-ZYUJOKI6/image/png"
+        },
+        {
+            "id": 6,
+            "source":"sololearn",
+            "title":"PHP",
+            "distinctSkills":["PHP"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":10,
+            "url":"https://api2.sololearn.com/v2/certificates/CT-5SMW6NAT/image/png"
+        },
+        {
+            "id": 7,
+            "source":"SAS",
+            "title":"SAS Certified Specialist: Base Programming Using SAS 9.4",
+            "distinctSkills":["Base SAS", "SAS Data Sets", "SAS Functions", "SAS Programming", "SAS System Reporting"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":300,
+            "url":"https://www.credly.com/badges/10fb5788-86fe-47db-b20b-a20c73803623?source=linked_in_profile"
+        },
+        {
+            "id": 8,
+            "source":"freeCodeCamp",
+            "title":"JavaScript Algorithms and Data Structures",
+            "distinctSkills":["HTML", "CSS", "JavaScript", "ES6", "Regular Expressions", "Debugging", "Basic Data Stuctures", "Object Oriented Programming", "Functional Programming", "Algorithm Scripting"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":300,
+            "url":"https://www.freecodecamp.org/certification/derek-mulhausen/javascript-algorithms-and-data-structures"
+        },
+        {
+            "id": 9,
+            "source":"freeCodeCamp",
+            "title":"Responsive Web Design",
+            "distinctSkills":["HTML", "CSS", "JavaScript", "Visual Design", "Accessibility", "Debugging", "CSS Flexbox", "CSS Grid"],
+            "distinctSkillPct":100,
+            "concurrentSkills":[],
+            "hours":300,
+            "url":"https://www.freecodecamp.org/certification/derek-mulhausen/responsive-web-design"
+        }
+
+    ],
+    "work":[
+        {
+            "id": 1,
+            "company":"CenturyLink",
+            "title":"Customer Service Representative",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["CRM", "Technical Support", "Support"],
+            "hours":0,
+            "start":"2004-03-01",
+            "end":"2009-03-01"
+        },
+        {
+            "id": 2,
+            "company":"Sprint",
+            "title":"Customer Service Representative",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["CRM", "Technical Support", "Support"],
+            "hours":0,
+            "start":"2009-03-01",
+            "end":"2010-08-01"
+        },
+        {
+            "id": 3,
+            "company":"APAC",
+            "title":"Customer Service Representative",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["CRM", "Technical Support", "Support"],
+            "hours":0,
+            "start":"2010-08-01",
+            "end":"2017-06-01"
+        },
+        {
+            "id": 4,
+            "company":"Logistics Health Incorporated",
+            "title":"Computer Technician",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":[],
+            "hours":0,
+            "start":"2010-11-01",
+            "end":"2011-01-01"
+        },
+        {
+            "id": 5,
+            "company":"MarketSharp Software",
+            "title":"Technical Support Specialist",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["CRM", "Support"],
+            "hours":0,
+            "start":"2011-04-01",
+            "end":"2011-09-01"
+        },
+        {
+            "id": 6,
+            "company":"The Schwan Food Company",
+            "title":"Route Sales Representative",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["Inventory Management"],
+            "hours":0,
+            "start":"2011-12-01",
+            "end":"2015-12-24"
+        },
+        {
+            "id": 7,
+            "company":"Kaplan Professional",
+            "title":"Technical Support Representative",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["LMS", "Technical Support"],
+            "hours":0,
+            "start":"2015-12-28",
+            "end":"2018-07-01"
+        },
+        {
+            "id": 8,
+            "company":"Quadient",
+            "title":"Senior Technical Support Engineer",
+            "distinctSkills":[],
+            "distinctSkillPct":0,
+            "concurrentSkills":["C#"],
+            "hours":0,
+            "start":"2018-07-15",
+            "end":"2018-10-03"
+        },
+        {
+            "id": 9,
+            "company":"DuraTech Industries",
+            "title":"Software Developer",
+            "distinctSkills":["SQL", "ERP", "Crystal Reports IX", "Node", "HTML5", "JavaScript", "CSS3", "jQuery"],
+            "distinctSkillPct":0,
+            "concurrentSkills":[],
+            "hours":0,
+            "start":"2018-12-10",
+            "end":"Present"
+        }
+        
+    ],
+    "learning sites":[
+        "hackerrank",
+        "codecademy",
+        "pluralsight",
+        "freecodecamp",
+        "algo expert"
+    ],
+    "project sources":[
+        "bitbucket",
+        "github",
+        "codepen",
+        "kaplan drive",
+        "school projects"
+        
+    ],
+    "projects":[
+        {
+            "title": "Sales Tracker",
+            "desc":"Originally created for myself to track sales, it expanded to 3 separate teams with supervisor rollups and was eventually adopted by the entire company",
+            "type": "work",
+            "workid": 1,
+            "skills":["UX", "UI", "Excel"],
+            "hours":24,
+            "Completed":"2006-04-01"
+
+        },
+        {
+            "title": "Software QA",
+            "desc":"",
+            "type": "",
+            "workid": 1,
+            "skills":[],
+            "repo":"",
+            "Completed":""
+        },
+        {
+            "title": "COQ team",
+            "desc":"",
+            "type": "",
+            "workid": 1,
+            "skills":[],
+            "repo":"",
+            "Completed":""
+        },
+        {
+            "title": "Plan selector",
+            "desc":"Created to select the best business plan for customers based on minutes used across the company",
+            "type": "work",
+            "workid": 2,
+            "skills":["UI", "UX", "VBA", "Excel"],
+            "hours":16,
+            "Completed":"2009-05-01"
+        },
+        {
+            "title": "Report Converter",
+            "desc":"This was done for multiple customers to convert reports into a format they could use.",
+            "type": "work",
+            "workid": 5,
+            "skills":["VBA", "Excel", "ETL"],
+            "hours":8,
+            "Completed":""
+        },
+        {
+            "title": "Commission Calculator",
+            "desc":"Calculates commission from weekly sales",
+            "type": "work",
+            "workid": 6,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":3,
+            "Completed":"2013-06-01"
+        },
+        {
+            "title": "Call Reporting",
+            "desc":"Created to convert from a manual process and instead reading the Excel output and converting it into a readable format.",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "Data Presentation", "ETL", "VBA", "Data Analysis", "Data Reporting"],
+            "hours":40,
+            "Completed":"2016-04-01"
+        },
+        {
+            "title": "Mocks Reporting",
+            "desc":"",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "Data Analysis", "Data Reporting"],
+            "hours":8,
+            "Completed":"2016-09-01"
+        },
+        {
+            "title": "Email AddIn",
+            "desc":"Used for reporting on email types and reasons",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "Data Analysis", "Data Reporting"],
+            "hours":16,
+            "Completed":"2016-08-01"
+        },
+        {
+            "title": "TS Reports Add In",
+            "desc":"Combined previous reports into one module and added additional functionality",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "Data Analysis", "Data Reporting"],
+            "hours":24,
+            "Completed":"2017-02-01"
+        },
+        {
+            "title": "Agent Release Codes",
+            "desc":"Tracked and totaled release codes per technician",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "ETL", "Data Analysis", "Data Reporting"],
+            "hours":16,
+            "Completed":"2017-05-01"
+        },
+        {
+            "title": "Student Support Add In",
+            "desc":"Sales reporting provided insights of individual rep sales as well as demographics of students",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "ETL", "Data Analysis", "Data Reporting"],
+            "hours":32,
+            "Completed":"2017-03-01"
+        },
+        {
+            "title": "Ticket Reporting",
+            "desc":"Provided reporting on call and email tickets",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "ETL", "Data Analysis", "Data Reporting"],
+            "hours":32,
+            "Completed":"2016-06-01"
+        },
+        {
+            "title": "Email cleanup",
+            "desc":"Created a script for a team to keep the email cleaned up",
+            "type": "work",
+            "workid": 7,
+            "skills":["Javascript", "Google Apps Script"],
+            "hours":2,
+            "Completed":"2017-03-01"
+        },
+        {
+            "title": "Report Times",
+            "desc":"Created an analysis to determine the optimum staffing based on call volumes.  This resulted in a change to the scheduling of technicians.",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX", "ETL", "Data Analysis", "Data Reporting"],
+            "hours":4,
+            "Completed":"2017-08-01"
+        },
+        {
+            "title": "Timeclock",
+            "desc":"Created an app to track programming times",
+            "type": "work",
+            "workid": 7,
+            "skills":["Excel", "VBA", "UI", "UX"],
+            "hours":3,
+            "Completed":"2016-02-01"
+        },
+        {
+            "title": "Add Page Numbers",
+            "desc":"Created an app for the editorial team to compare a pdf document with an epub document and add page numbers based on page breaks in the pdf document.  These files did not always exactly match so a user interface was created for the user to get the documents back in sync.",
+            "type": "",
+            "workid": 7,
+            "skills":["Java", "Text Parsing", "HTML5", "HTML DOM"],
+            "hours":80,
+            "repo":"https://github.com/DerekMulhausen/pagesync",
+            "Completed":"2018-06-01"
+        },
+        {
+            "title": "Auto Quote Notes",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["SQL", "Crystal Reports"],
+            "hours":80,
+            "repo":"",
+            "Completed":"2019-04-01"
+        },
+        {
+            "title": "Shipping Display Board",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL"],
+            "hours":16,
+            "repo":"",
+            "Completed":""
+        },
+        {
+            "title": "Combo Configurator",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "SQL"],
+            "hours":40,
+            "repo":"",
+            "Completed":"2019-07-05"
+        },
+        {
+            "title": "YTD Invoice Report",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["SQL", "VBA"],
+            "hours":16,
+            "repo":"",
+            "Completed":"2019-11-01"
+        },
+        {
+            "title": "Sales Variance Report",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "SQL"],
+            "hours":16,
+            "repo":"",
+            "Completed":"2019-10-01"
+        },
+        {
+            "title": "Send With Shipment",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL", "C#"],
+            "hours":16,
+            "repo":"",
+            "Completed":"2020-03-01"
+        },
+        {
+            "title": "Date of Manufacture",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL"],
+            "hours":32,
+            "repo":"",
+            "Completed":"2021-06-01"
+        },
+        {
+            "title": "Shipment Statuses",
+            "desc":"Integrated web automation with a spreadsheet to get shipment statuses of DHL and FedEx shipments",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "VisualCron", "SQL", "JavaScript"],
+            "hours":32,
+            "repo":"",
+            "Completed":"2020-07-01"
+        },
+        {
+            "title": "Subcontract Configurator",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "SQL"],
+            "hours":80,
+            "repo":"",
+            "Completed":"2020-05-01"
+        },
+        {
+            "title": "Inventory Lookup",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL"],
+            "hours":32,
+            "repo":"",
+            "Completed":"2022-04-01"
+        },
+        {
+            "title": "Cycle Count",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL"],
+            "hours":100,
+            "repo":"",
+            "Completed":"2020-12-01"
+        },
+        {
+            "title": "Screening Time Remaining",
+            "desc":"Update existing query to show time remaining based on the product build data and the data collected during runtime.",
+            "type": "work",
+            "workid": 9,
+            "skills":["SQL"],
+            "hours":12,
+            "repo":"",
+            "Completed":"20-01-21"
+        },
+        {
+            "title": "RFQ form for Subcontract Configurator",
+            "desc":"Create a VBA automation to email a quote",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA"],
+            "repo":"",
+            "Completed":"2020-05-15"
+        },
+        {
+            "title": "Repository Backup",
+            "desc":"Used VisualCron to do daily backups of the project repositories.  Daily and monthly backups were also trimmed to only keep a specific number with yearly backups as well.",
+            "type": "work",
+            "workid": 9,
+            "skills":["VisualCron"],
+            "hours":8,
+            "repo":"",
+            "Completed":"2021-06-15"
+        },
+        {
+            "title": "Watlow Data",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["SQL", "DBA"],
+            "hours":16,
+            "repo":"",
+            "Completed":"2020-02-15"
+        },
+        {
+            "title": "Customer Item Prices",
+            "desc":"Create an Excel Interface to allow users to add, modify, and remove discount prices for customer items in the database.",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "SQL"],
+            "hours":40,
+            "repo":"",
+            "Completed":"2021-03-15"
+        },
+        
+        {
+            "title": "Commissions Report",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["VBA", "SQL"],
+            "hours":40,
+            "repo":"",
+            "Completed":"2021-11-15"
+        },
+        {
+            "title": "Work Order Completion",
+            "desc":"",
+            "type": "work",
+            "workid": 9,
+            "skills":["JavaScript", "HTML5", "CSS3", "SQL"],
+            "hours":200,
+            "repo":"",
+            "Completed":""
+        },
+        {
+            "title": "Tribute page",
+            "desc":"This was created as part of a freeCodeCamp certification.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3"],
+            "hours":2,
+            "repo":"https://codepen.io/dmulhausen/pen/MQEreq",
+            "Completed":"2018-05-01"
+        },
+        {
+            "title": "Survey Form",
+            "desc":"This was created as part of a freeCodeCamp certification.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3"],
+            "hours":4,
+            "repo":"https://codepen.io/dmulhausen/pen/mzBgXp",
+            "Completed":"2018-05-01"
+        },
+        {
+            "title": "Product Landing Page",
+            "desc":"This was created as part of a freeCodeCamp certification.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3"],
+            "hours":4,
+            "repo":"https://codepen.io/dmulhausen/pen/gBvyyW",
+            "Completed":"2018-05-01"
+        },
+        {
+            "title": "Technical Documentation Page",
+            "desc":"This was created as part of a freeCodeCamp certification.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3"],
+            "hours":4,
+            "repo":"https://codepen.io/dmulhausen/pen/dggeop",
+            "Completed":"2018-05-01"
+        },
+        {
+            "title": "Personal Portfolio Webpage",
+            "desc":"This was created as part of a freeCodeCamp certification.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3"],
+            "hours":4,
+            "repo":"https://codepen.io/dmulhausen/pen/bLaOEE",
+            "Completed":"2018-05-01"
+        },
+        {
+            "title": "Programming merit badge example",
+            "desc":"This is an example I use for teaching programming merit badge",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":1,
+            "Completed":"2018-06-01"
+        },
+        {
+            "title": "Wikipedia viewer",
+            "desc":"Just a fun little project",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":3,
+            "Completed":"2019-03-01"
+        },
+        {
+            "title": "Current Local Weather",
+            "desc":"I think this was for education, but cannot remember for sure.",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":3,
+            "Completed":"2020-01-01"
+        },
+        {
+            "title": "Random Bible verse",
+            "desc":"Generates a random bible verse",
+            "type": "personal",
+            "workid": 0,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":3,
+            "Completed":"2018-05-30"
+        },
+        {
+            "title": "Doodler clone",
+            "desc":"freeCodeCamp tutorial",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["HTML5", "CSS3", "Javascript"],
+            "hours":4,
+            "Completed":"2020-10-08"
+        },
+        {
+            "title": "VBA SQL workshop",
+            "desc":"This was created for a presentation at Codemash",
+            "type": "personal",
+            "workid": 0,
+            "skills":["VBA", "SQL"],
+            "hours":40,
+            "repo":"https://github.com/DerekMulhausen/CodeMash.2020.VBA_SQL",
+            "Completed":"2020-01-07"
+        },
+        {
+            "title": "Web scraper",
+            "desc":"",
+            "type": "personal",
+            "workid": 0,
+            "skills":["Python", "Beautiful Soup Library"],
+            "hours":4,
+            "repo":"https://github.com/DerekMulhausen/webScraper",
+            "Completed":"2020-10-01"
+        },
+        {
+            "title": "react Birthday Reminder",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-03"
+        },
+        {
+            "title": "React Tours",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-04"
+        },
+        {
+            "title": "React Reviews",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-05"
+        },
+        {
+            "title": "React Accordian",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-10"
+        },
+        {
+            "title": "React Menu",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-10"
+        },
+        {
+            "title": "React Tabs",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-11"
+        },
+        {
+            "title": "React Slider",
+            "desc":"",
+            "type": "tutorial",
+            "workid": 0,
+            "skills":["React"],
+            "hours":1,
+            "Completed":"2022-08-12"
+        },
+        
+        {
+            "title": "last",
+            "desc":"",
+            "type": "",
+            "workid": 0,
+            "skills":[],
+            "hours":0,
+            "Completed":""
+        }
+        
+        
+    ]
+
+}
