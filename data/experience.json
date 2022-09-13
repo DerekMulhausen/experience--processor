@@ -187,7 +187,7 @@
             "company":"DuraTech Industries",
             "title":"Software Developer",
             "distinctSkills":["SQL", "ERP", "Crystal Reports IX", "Node", "HTML5", "JavaScript", "CSS3", "jQuery"],
-            "distinctSkillPct":0,
+            "distinctSkillPct":100,
             "concurrentSkills":[],
             "hours":0,
             "start":"2018-12-10",

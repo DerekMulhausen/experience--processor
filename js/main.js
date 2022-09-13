@@ -108,13 +108,31 @@ xhr.onload=function(){
             const timeDiff=dateEnd.getTime()-dateStart.getTime();
             const dayDiff=timeDiff/(1000*3600*24);
             const workHours=dayDiff*5/7*8;
-            
+
+            let workTime;
+            const workIndex=workList.findIndex(elem=>{
+                return elem.id===work.id;
+            });
+            if(workIndex>-1){
+                workTime=workHours-workList[workIndex].hours;
+            }else{
+                workTime=workHours;
+            }
+            if(work.distinctSkills.length>0){
+                const skillTime=(work.hours*(work.distinctSkillPct/100))/work.distinctSkills.length;
+                skillList=updateSkills(skillList, workData, work.distinctSkills, 'work', skillTime);
+            }
+            if(work.concurrentSkills.length>0){
+                const skillTime=((100-work.distinctSillPct)/100)*work.hours;
+                skillList=updateSkills(skillList, workData, work.concurrentSkills, 'work', skillTime);            
+            }
 
         });
         console.log(skillList);
         console.log(workList);
     }
 };
+xhr.send();
 function updateSkills(skillList, sourceBlock, skillBlock, sourceType, skillTime){
     skillBlock.forEach(skill=>{
         const skillIndex=skillList.findIndex(elem=>{
@@ -139,5 +157,5 @@ function updateSkills(skillList, sourceBlock, skillBlock, sourceType, skillTime)
     return skillList;
 }
 
-xhr.send();
+
 
