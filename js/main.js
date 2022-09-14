@@ -9,6 +9,7 @@ xhr.onload=function(){
         var Experience=JSON.parse(xhr.responseText);
         console.log(Experience.certificates);
         var skills={};
+        let totalSkillTime=0;
         skillList=[];
         workList=[];
         Experience.certificates.forEach(cert=>{
@@ -21,6 +22,7 @@ xhr.onload=function(){
             };
             //get list of skills
             //calc distinct skills
+            totalSkillTime+=cert.hours;
             let skillTime=(cert.hours*(cert.distinctSkillPct/100))/cert.distinctSkills.length;
             skillList=updateSkills(skillList, certData, cert.distinctSkills, 'certificates', skillTime);
             // cert.distinctSkills.forEach(skill=>{
@@ -77,8 +79,9 @@ xhr.onload=function(){
                 "repo":proj.repo,
                 
             };
+            totalSkillTime+=proj.hours;
             const skillTime=proj.hours/proj.skills.length;
-            skillList=updateSkills(skillList, projData, proj.skills, 'projects', skillTime, true);
+            skillList=updateSkills(skillList, projData, proj.skills, 'projects', skillTime);
             if(proj.workid>0){
                 const workIndex=workList.findIndex(elem=>{
                     return elem.id===projData.workid;
@@ -94,43 +97,53 @@ xhr.onload=function(){
             }
         });
         Experience.work.forEach(work=>{
-            let workData={
-                "id":work.id,
-                "company":work.company,
-                "title":work.title,
-                "start":work.start,
-                "end":work.end
-            };
-            let dateParse=split(work.start,'-');
-            const dateStart=new Date(dateParse[0],dateParse[1]-1, dateParse[2]);
-            dateParse=split(work.end,'-');
-            const dateEnd=new Date(dateParse[0],dateParse[1]-1, dateParse[2]);
-            const timeDiff=dateEnd.getTime()-dateStart.getTime();
-            const dayDiff=timeDiff/(1000*3600*24);
-            const workHours=dayDiff*5/7*8;
+            if(work.distinctSkills.length>0||work.concurrentSkills.length>0){
+                let workData={
+                    "id":work.id,
+                    "company":work.company,
+                    "title":work.title,
+                    "start":work.start,
+                    "end":work.end
+                };
+                let dateParse=work.start.split('-');
+                const dateStart=new Date(dateParse[0],dateParse[1]-1, dateParse[2]);
+                dateParse=work.end.split('-');
+                const dateEnd=new Date(dateParse[0],dateParse[1]-1, dateParse[2]);
+                const timeDiff=dateEnd.getTime()-dateStart.getTime();
+                const dayDiff=timeDiff/(1000*3600*24);
+                const workHours=dayDiff*5/7*8;
 
-            let workTime;
-            const workIndex=workList.findIndex(elem=>{
-                return elem.id===work.id;
-            });
-            if(workIndex>-1){
-                workTime=workHours-workList[workIndex].hours;
-            }else{
-                workTime=workHours;
-            }
-            if(work.distinctSkills.length>0){
-                const skillTime=(work.hours*(work.distinctSkillPct/100))/work.distinctSkills.length;
-                skillList=updateSkills(skillList, workData, work.distinctSkills, 'work', skillTime);
-            }
-            if(work.concurrentSkills.length>0){
-                const skillTime=((100-work.distinctSillPct)/100)*work.hours;
-                skillList=updateSkills(skillList, workData, work.concurrentSkills, 'work', skillTime);            
+                let workTime;
+                const workIndex=workList.findIndex(elem=>{
+                    return elem.id===work.id;
+                });
+                if(workIndex>-1){
+                    workTime=workHours-workList[workIndex].projectHours;
+                }else{
+                    workTime=workHours;
+                }
+                totalSkillTime+=workTime;
+                if(work.distinctSkills.length>0){
+                    const skillTime=(workTime*(work.distinctSkillPct/100))/work.distinctSkills.length;
+                    skillList=updateSkills(skillList, workData, work.distinctSkills, 'work', skillTime);
+                }
+                if(work.concurrentSkills.length>0){
+                    const skillTime=((100-work.distinctSkillPct)/100)*workTime;
+                    skillList=updateSkills(skillList, workData, work.concurrentSkills, 'work', skillTime);            
+                }
             }
 
         });
+        skillList.sort((a,b)=>b.hours-a.hours);
+        let maxSkillTime=skillList[0].hours;
+        skillList.forEach(skill=>{
+            skill.dispPct=skill.hours/maxSkillTime*100;
+            skill.skillPct=skill.hours/totalSkillTime*100;
+        });        
         console.log(skillList);
         console.log(workList);
     }
+
 };
 xhr.send();
 function updateSkills(skillList, sourceBlock, skillBlock, sourceType, skillTime){
